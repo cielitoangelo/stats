@@ -144,7 +144,7 @@
         color: rgb(207, 207, 207);
     }
 
-    .count > div > h4 {
+    .count > div > h2 {
         font-size: 59px;
         font-weight: 600;
         text-transform: uppercase;
