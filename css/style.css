@@ -60,12 +60,13 @@
 
     .count > div > h4 {
         font-size: 35px;
-        margin: auto;
+        margin: 0;
         text-transform: uppercase;
     }
 
     .count > div > p {
         font-size: 15px;
+        margin: 0;
         text-transform: uppercase;
         color: rgb(207, 207, 207);
     }
