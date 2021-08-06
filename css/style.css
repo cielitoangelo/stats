@@ -58,7 +58,7 @@
         color: rgb(207, 207, 207);
     }
 
-    .count > div > h4 {
+    .count > div > h2 {
         font-size: 35px;
         margin: 0;
         text-transform: uppercase;
