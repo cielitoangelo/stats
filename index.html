@@ -3,27 +3,208 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Stats preview card component</title>
+  <title>Frontend Mentor | Stats Preview Card Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 12px; text-align: center; color: white; margin-bottom: 12%;}
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (min-width: 700px) {
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #040210;
+        min-width: min-content;
+      }
+
+      .main {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #430065;
+        max-width: max-content;
+        border-radius: 10px;
+        margin: 12% auto 12% auto;
+      }
+
+      .main > div {
+        height: 446px;
+        width: 540px;
+        background-color: #0f002b;
+      }
+
+      .count{
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: max-content;
+        border-radius: 10px;
+        margin: 0 10% 0 10%;
+      }
+
+      .count > div {
+        width: 100px;
+        margin: 0 20% 0 0;
+      }
+      
+      .left {
+        color: rgb(238, 238, 238);
+        border-radius: 10px 0 0 10px;
+      }
+
+      .right { 
+        opacity: .5;
+        border-radius: 0 10px 10px 0;
+        background-image: url("images/image-header-desktop.jpg");
+      }
+
+      .left > h1 {
+        padding: 10% 10% 0 10%;
+        line-height: 1.2;
+        font-size: 35px;
+      }
+
+      .left > p {
+        padding: 0 30% 5% 10%;
+        line-height: 1.5;
+        font-size: 16px;
+        font-weight: 50;
+        color: rgb(207, 207, 207);
+      }
+
+      .count > div > h4 {
+        font-size: 35px;
+        margin: auto;
+        text-transform: uppercase;
+      }
+
+      .count > div > p {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: rgb(207, 207, 207);
+      }
+
+      .left .insights {
+        color: rgb(175, 103, 216);
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #040210;
+        min-width: 700px;
+      }
+
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #430065;
+        max-width: max-content;
+        border-radius: 10px;
+        margin: 12% 5% 12% 5%;
+        text-align: center;
+      }
+
+      .main > div {
+        height: max-content;
+        width: 100%;
+        background-color: #0f002b;
+      }
+
+      .main .right { 
+        height: 446px;
+      }
+
+      .count{
+        display: block;
+        max-width: max-content;
+        border-radius: 10px;
+        margin: auto auto 15% auto;
+      }
+
+      .count > div {
+        width: max-content;
+        margin: auto auto 50% auto;
+      }
+      
+      .left {
+        order: 2;
+        color: rgb(238, 238, 238);
+        border-radius: 0 0 10px 10px;
+      }
+
+      .right { 
+        height: 446px;
+        order: 1;
+        opacity: .5;
+        border-radius: 10px 10px 0 0 ;
+        background-image: url("images/image-header-desktop.jpg");
+      }
+
+      .left > h1 {
+        padding: 5% 5% 0 5%;
+        line-height: 1.2;
+        font-size: 59px;
+        font-weight: 600;
+      }
+
+      .left > p {
+        padding: 0 10% 5% 10%;
+        line-height: 1.5;
+        font-size: 33px;
+        font-weight: 50;
+        color: rgb(207, 207, 207);
+      }
+
+      .count > div > h4 {
+        font-size: 59px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      .count > div > p {
+        font-size: 33px;
+        font-weight: 50;
+        text-transform: uppercase;
+        color: rgb(207, 207, 207);
+        margin: 0;
+      }
+
+      .left .insights {
+        color: rgb(175, 103, 216);
+      }
+    }
+
   </style>
 </head>
 <body>
+  <div class="main">
+    <div class="left">
+      <h1>Get <span class="insights">insights</span> that help your business grow.</h1>
 
-  Get insights that help your business grow.
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+      
+      <div class="count">
+        <div>
+          <h4>10k+</h4>
+          <p>companies</p>
+        </div>
+        <div>
+          <h4>314+</h4>
+          <p>templates</p>
+        </div>
+        <div>
+          <h4>12m+</h4>
+          <p>queries</p>
+        </div>
+      </div>
+    </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+    <div class="right">
+    </div>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
