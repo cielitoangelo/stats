@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop Screenshot](/design/Stats-Desktop.png)
+![Desktop Screenshot](/design/Stats-Desktop.png)
 
-[Mobile Screenshot](/design/Stats-Mobile.png)
+![Mobile Screenshot](/design/Stats-Mobile.png)
 
 ### Links
 
