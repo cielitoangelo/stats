@@ -47,6 +47,6 @@ I have learned how to use flexbox without the help of BootStrap.
 
 ## Author
 
-- Linkedin - [Cielito Angelo Lozano](https://www.linkedin.com/cielitoangelo)
+- Linkedin - [Cielito Angelo Lozano](https://www.linkedin.com/in/cielitoangelo)
 - GitHub - [cielitoangelo](https://www.github.com/cielitoangelo)
 
