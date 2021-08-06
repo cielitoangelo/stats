@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/stats-preview-card-component-XH8v3Hhpo)
-- Live Site URL: [Add live site URL here](https://cielitoangelo.github.io/stats/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/stats-preview-card-component-XH8v3Hhpo)
+- Live Site URL: [Click Here](https://cielitoangelo.github.io/stats/)
 
 ## My process
 
