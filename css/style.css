@@ -41,7 +41,7 @@
     .right { 
         opacity: .5;
         border-radius: 0 10px 10px 0;
-        background-image: url("images/image-header-desktop.jpg");
+        background-image: url("../images/image-header-desktop.jpg");
     }
 
     .left > h1 {
@@ -125,7 +125,7 @@
         order: 1;
         opacity: .5;
         border-radius: 10px 10px 0 0 ;
-        background-image: url("images/image-header-desktop.jpg");
+        background-image: url("../images/image-header-mobile.jpg");
     }
 
     .left > h1 {
